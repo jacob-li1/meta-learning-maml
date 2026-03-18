@@ -13,12 +13,12 @@ This project implements several classical meta-learning algorithms for few-shot 
 
 ## 📊 Experimental Results
 
-| Algorithm | Accuracy |
-|----------|--------|
-| MAML | 62.3% |
-| FOMAML | 52.8% |
-| ANIL | 79.2% |
-| Reptile | 33.8% |
+| Algorithm | Accuracy | Time (s) | Efficiency |
+|----------|--------|--------|-----------|
+| MAML | 0.623 | 814.16 | 0.00077 |
+| FOMAML | 0.528 | 171.52 | 0.00308 |
+| ANIL | **0.792** | **166.80** | **0.00475** |
+| Reptile | 0.338 | 165.50 | 0.00204 |
 
 > Note: Results are based on Omniglot few-shot classification tasks.
 
@@ -48,9 +48,9 @@ This project implements several classical meta-learning algorithms for few-shot 
 Install dependencies:
 
 ```bash
-pip install torch torchvision numpy
+pip install requirements.txt
 ```
-
+- python version >= 3.10
 ---
 
 ## 🚀 How to Run
